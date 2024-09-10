@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 60, 54);
+}
+nav{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+ul :hover{
+    transition: .2s;
+    z-index:3 ;
+    background-color: aqua;
+    border-radius: 5px;
+}
+nav h1{
+    font-size: 40px;
+    color: aqua;
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+h6{
+    color: white;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size:28px ;
+    font-family: copperplate,papyrus,fantasy
+}
+p{
+    color: white;
+    font-size: 15px;
+    
+}
+button{
+    border-radius: 5px;
+    padding: 15px;
+    letter-spacing: .5;
+    margin-left: 5PX;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(243, 237, 237);
+    position: relative;
+    z-index: 1;
+    background: aqua;
+}
+img{
+    border-radius: 50%;
+}
+span{
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
